@@ -2,11 +2,10 @@
 این پروژه شامل تحلیل داده‌های واقعی فروش یک فروشگاه پوشاک کوچک است که داده‌های آن از ۱۱ محصول مختلف جمع‌آوری شده است.  
 تمام مراحل تحلیل، تمیزسازی داده، مصورسازی و پیش‌نیازهای تحلیل‌های بعدی در این فایل‌ها قرار دارند.
 ### 🧾 توضیحات فایل اکسل
-فایل اکسل شامل ۴ شیت اصلی است:
-
-Data main →  داده‌های خرید شامل تاریخ شمسی و ستون تبدیل‌شده به تاریخ میلادی (با استفاده از ماکرو) و نیز باقی اطلاعات خرید کالاها.
-Sales_data → جزئیات فروش واقعی محصولات در بازه‌های زمانی مختلف.
-Sales_Dashboard → داده‌های آماده برای مصورسازی و گزارش‌های خلاصه.
+فایل اکسل شامل ۴ شیت اصلی است:  
+Data main →  داده‌های خرید شامل تاریخ شمسی و ستون تبدیل‌شده به تاریخ میلادی (با استفاده از ماکرو) و نیز باقی اطلاعات خرید کالاها.  
+Sales_data → جزئیات فروش واقعی محصولات در بازه‌های زمانی مختلف.  
+Sales_Dashboard → داده‌های آماده برای مصورسازی و گزارش‌های خلاصه.  
 Readme → توضیحات فنی مراحل و ساختار فایل‌ها داخل خود اکسل.
 ### 🧩 ماکرو مورد استفاده
 در این پروژه از کد VBA برای تبدیل تاریخ شمسی به میلادی در ستون مربوطه استفاده شده است تا در مراحل بعدی بتوان از داده‌های زمانی در ابزارهایی مانند Power BI، SQL و Python بهره گرفت.
@@ -19,20 +18,20 @@ Readme → توضیحات فنی مراحل و ساختار فایل‌ها دا
 ### 🎯 هدف پروژه
 هدف اصلی این پروژه، آماده‌سازی داده‌های فروش برای استفاده در تحلیل‌های پیشرفته‌تر با ابزارهای:
 
-Python برای اتوماسیون تحلیل‌ها
-SQL برای ذخیره و پرس‌وجوی داده‌ها
-Power BI برای داشبورد مدیریتی و گزارش‌های تصویری
-
-
-
+Python  
+برای اتوماسیون تحلیل‌ها،  
+SQL  
+برای ذخیره و پرس‌وجوی داده‌ها،  
+Power BI  
+برای داشبورد مدیریتی و گزارش‌های تصویری.
 # Clothing Store Sales Data Analysis (Excel Dashboard & Macro)
 This Excel-based project contains real sales data from a small clothing store (11 products in total).  
 The goal is to clean, visualize, and prepare this dataset for deeper analysis using Power BI, SQL, and Python in future steps.
 ### 🧾 Excel File Overview
 The workbook includes four main sheets:  
 Data main → Purchase data with both Persian and converted Gregorian dates (via macro) and the rest of the information about purchasing goods.  
-Sales_data → Detailed product sales across different months.
-Sales_Dashboard → Preprocessed and aggregated data ready for visualization.
+Sales_data → Detailed product sales across different months.  
+Sales_Dashboard → Preprocessed and aggregated data ready for visualization.  
 Readme → Technical documentation of project steps inside Excel.
 ### 🧩 Macro Description
 A VBA macro is used to convert Persian dates to Gregorian in the Data main sheet.  
@@ -45,12 +44,10 @@ Shows total sales, average actual profit, and average profit % for each produc
 Conditional formatting highlights products as profitable (green), moderate (yellow), and low-profit (red) categories.  
 Screenshot 3 – Monthly Sales Volume Overview. Bar chart showing total sold units by month — seasonal fluctuations caused by discounts or demand changes are clearly visible.
 ### 🎯 Project Goal
-To build a clean and dynamic sales data model in Excel, serving as a foundation for next-stage analysis in:
-
-Python (automation)
-SQL (data storage & queries)
+To build a clean and dynamic sales data model in Excel, serving as a foundation for next-stage analysis in:  
+Python (automation)  
+SQL (data storage & queries)  
 Power BI (visual reporting)
-
 ### ✍️ Author
 Developed by [@HaniData](https://github.com/HaniData)  
 _Last updated: February 2026_
