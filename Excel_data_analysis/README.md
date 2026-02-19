@@ -14,16 +14,10 @@ Readme → توضیحات فنی مراحل و ساختار فایل‌ها دا
 سه تصویر از داشبورد اکسل در این مخزن آپلود شده است که هر کدام بخش متفاوتی از تحلیل را نشان می‌دهند:  
 تصویر اول – اسلایسر نام محصول و ماه فروش که نشان می‌دهد در هر ماه دقیقاً چه کالاهایی فروش رفته‌اند.
 
-![product_slicer](Dashboard1_product_slicer.png)
-
 تصویر دوم – جدول و نمودار خطی سود محصولات. شامل پیوت تیبل با مجموع فروش کل هر محصول، میانگین سود واقعی و میانگین درصد سود هر محصول. این مقادیر با رنگ‌بندی Conditional Formatting به سه دسته‌ی رنگی سبز (پرسود)، زرد (میان‌سود) و قرمز (کم‌سود) تقسیم شده‌اند. نمودار خطی نیز همین دسته‌بندی را نمایش می‌دهد.
-
-![profit_analysis](images/Dashboard2_profit_analysis.png)
 
 تصویر سوم – فروش ماهانه کل اقلام. پیوت تیبل و نمودار میله‌ای که نشان می‌دهد در هر ماه مجموع اقلام فروخته‌شده چقدر بوده و چگونه فروش در برخی ماه‌ها به دلیل تخفیفات یا تقاضای فصلی دچار 
 نوسان شده.
-
-![monthly_sales_trend](images/Dashboard3_monthly_sales_trend.png)
 ### 🎯 هدف پروژه
 هدف اصلی این پروژه، آماده‌سازی داده‌های فروش برای استفاده در تحلیل‌های پیشرفته‌تر با ابزارهای:
 
@@ -48,10 +42,18 @@ This provides compatibility with tools such as Power BI, Python, and SQL for l
 ### 🖼 Dashboard Screenshots
 Three dashboard screenshots have been uploaded to illustrate different analytical views:  
 Screenshot 1 – Product & Month Slicer. Displays which products were sold in each month.  
+
+![product_slicer](images/Dashboard1_product_slicer.png)
+
 Screenshot 2 – Pivot Table + Line Chart of Profit Categories.  
 Shows total sales, average actual profit, and average profit % for each product.  
 Conditional formatting highlights products as profitable (green), moderate (yellow), and low-profit (red) categories.  
+
+![profit_analysis](images/Dashboard2_profit_analysis.png)
+
 Screenshot 3 – Monthly Sales Volume Overview. Bar chart showing total sold units by month — seasonal fluctuations caused by discounts or demand changes are clearly visible.
+
+![monthly_sales_trend](images/Dashboard3_monthly_sales_trend.png)
 ### 🎯 Project Goal
 To build a clean and dynamic sales data model in Excel, serving as a foundation for next-stage analysis in:  
 Python (automation)  
