@@ -42,19 +42,17 @@ This provides compatibility with tools such as Power BI, Python, and SQL for l
 ### 🖼 Dashboard Screenshots
 Three dashboard screenshots have been uploaded to illustrate different analytical views:  
 Screenshot 1 – Product & Month Slicer. Displays which products were sold in each month.  
-
-# ![product_slicer](images/Dashboard1_product_slicer.png)
 ![Product_slicer](https://raw.githubusercontent.com/hani-data/Data_Analysis_Sales_Project/main/images/Dashboard1_product_slicer.png)
 
 Screenshot 2 – Pivot Table + Line Chart of Profit Categories.  
 Shows total sales, average actual profit, and average profit % for each product.  
 Conditional formatting highlights products as profitable (green), moderate (yellow), and low-profit (red) categories.  
 
-![profit_analysis](images/Dashboard2_profit_analysis.png)
+![Profit_analysis](https://raw.githubusercontent.com/hani-data/Data_Analysis_Sales_Project/main/images/Dashboard2_profit_analysis.png)
 
 Screenshot 3 – Monthly Sales Volume Overview. Bar chart showing total sold units by month — seasonal fluctuations caused by discounts or demand changes are clearly visible.
 
-![monthly_sales_trend](images/Dashboard3_monthly_sales_trend.png)
+![monthly_sales_trend](https://raw.githubusercontent.com/hani-data/Data_Analysis_Sales_Project/main/images/Dashboard3_monthly_sales_trend.png)
 ### 🎯 Project Goal
 To build a clean and dynamic sales data model in Excel, serving as a foundation for next-stage analysis in:  
 Python (automation)  
