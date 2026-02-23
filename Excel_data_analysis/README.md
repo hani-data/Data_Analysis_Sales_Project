@@ -43,7 +43,8 @@ This provides compatibility with tools such as Power BI, Python, and SQL for l
 Three dashboard screenshots have been uploaded to illustrate different analytical views:  
 Screenshot 1 – Product & Month Slicer. Displays which products were sold in each month.  
 
-![product_slicer](images/Dashboard1_product_slicer.png)
+# ![product_slicer](images/Dashboard1_product_slicer.png)
+![Product_slicer](https://raw.githubusercontent.com/hani-data/Data_Analysis_Sales_Project/main/images/Dashboard1_product_slicer.png)
 
 Screenshot 2 – Pivot Table + Line Chart of Profit Categories.  
 Shows total sales, average actual profit, and average profit % for each product.  
